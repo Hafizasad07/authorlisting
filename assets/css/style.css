@@ -2370,9 +2370,9 @@ font-size: 18px;
     padding-right: 0px;
 }
 
-.mr-left{
+/* .mr-left{
     margin-left: 6px;
-}
+} */
 
 .mr-right{
     margin-right: 0px;
@@ -2466,11 +2466,16 @@ font-size: 18px;
 
 .mob-card-pt{
     padding-top: 20px;
-    margin-right: -23px;
 }
 
 .filter-border{
     padding-bottom: 10px;
+}
+
+.mob-card{
+    width: 110% !important;
+    margin-left: -10px !important;
+    overflow: hidden;
 }
 }
 
@@ -2527,7 +2532,7 @@ font-size: 18px;
 
     #page_navigation a{
         font-size: 10px;
-        padding: 1px 5px;
+        padding: 1px 6px;
     }
 
     .bestselling-box img {
