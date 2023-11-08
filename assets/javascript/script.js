@@ -84,8 +84,8 @@ $(".vector-icon").click(function(){
 if ($(window).width() < 767) {
   $(".card-paragraph.author-detail").each(function(){
     var text = $(this).text();
-    if (text.length > 80) {
-      var finded = text.substring(0,80) + "...";
+    if (text.length > 115) {
+      var finded = text.substring(0,115) + "...";
       $(this).text(finded);
     }
   })

@@ -1109,7 +1109,7 @@ input::placeholder {
 
 .form-check-input:checked {
     background-color: #ff2da4;
-    border-color: #ff2da4;
+    border-color: #ff2da4 !important;
 }
 
 .checkbox-quantity{
@@ -1132,6 +1132,9 @@ input::placeholder {
     box-shadow: none;
 }
 
+.form-check-input[type=checkbox]{
+    border-color: #ff2da4;
+}
 .range-section{
     display: flex;
     justify-content: space-between;
@@ -1960,7 +1963,7 @@ strong {
 
 .carousel-card .img{
     margin-bottom: 2px;
-    padding: 0px 8px 10px;
+    padding: 0px 2px 4px;
 }
 
 .mob-list{
@@ -2096,6 +2099,7 @@ strong {
     border: 0.7px solid #FF2DA4;
 }
 
+.model-filter-button,
 .filter-btn a:hover .filter-button {
     color: #fff;
     background: #FF2DA4;
@@ -2331,6 +2335,7 @@ font-size: 18px;
     font-size: 13px;
     margin-bottom: 0px;
     font-weight: 600;
+    padding-bottom: 6px;
 }
 
 .navbar-toggler:focus{
@@ -2366,7 +2371,7 @@ font-size: 18px;
 }
 
 .mr-left{
-    margin-left: 0px;
+    margin-left: 6px;
 }
 
 .mr-right{
@@ -2429,6 +2434,7 @@ font-size: 18px;
 
 .bestselling-box{
     top: 9px;
+    left: 6px;
 }
 
 .card-heading1 img {
@@ -2440,7 +2446,7 @@ font-size: 18px;
 }
 
 .card-paragraph.author-detail.author-listing{
-    height: 72px;
+    height: 85px;
 }
 
 .next_link.text, 
@@ -2460,6 +2466,7 @@ font-size: 18px;
 
 .mob-card-pt{
     padding-top: 20px;
+    margin-right: -23px;
 }
 
 .filter-border{
